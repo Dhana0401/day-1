@@ -1,0 +1,53 @@
+# day-2DHANANCHEZHIYAN.N
+B30WD-Tamil
+ 1. Write the key differences between browser js and nodejs
+ Browser js Nodejs
+* Javascript is a programming language      * Nodejs is a javascript runtime environment 
+ that is used for writing scripts on                          
+ website
+*Javascript can only be run in websites             * We can run javascript outside 
+ browsers with the help of Nodejs
+ * It is basically used on client-side         * It is mostly used on server-side
+ * We can add HTML and play with  DOM           * Nodejs doesn't have capability to add HTML tags
+* Javascript is used in frontend         * Nodejs is used in serverside development
+ development 
+ 
+ 2.FROM VIDEO 
+ * PARSING HTML
+ ^ HTML is forgiving by nature
+ ^ Parsing isn’t straight forward
+ ^ Can be halted
+ ^ Will do speculative halting 
+ ^ Its re-Entrant
+ * FORGIVING NATURE OF HTML
+ - Even if our code is wrong, our code will run but output might change
+ * PARSING ISNT STRAIGHT FORWARD
+ - Parsing means analyzing and converting a program in internal format that runtime
+environment can actually run
+ - Network----Tokeniser 1 -----tree construction 2 ------ DOM. there is separate interaction 
+between 1 and Script execution
+ Script execution to 2
+ * CAN BE HALTED
+ - Will halt the parser as a script can alter the document
+ -> Network latency
+ -> link & style could halt js execution
+ * Speculative Parsing
+ - Will look ahead
+ - External images,scripts,css
+ * ITS RE-ENTRANT
+ - At its simplest a re-entrant parser doesnt use global variables and thus can 
+have multiple instances active at the same time
+
+
+ 3. Code execution
+ 1) type of (1) = number
+ 2) type of (1.1) = number
+ 3) type of ("1.1") = string
+ 4) type of (true) = boolean
+ 5) type of (null) = object
+ 6) type of(undefined) = undefined
+ 7) type of([]) = object
+ 8) type of({}) = object
+ 9) type of(NaN) = number
+ 
+ 
