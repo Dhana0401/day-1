@@ -1,0 +1,20 @@
+DHANANCHEZHIYAN.N
+B30WD-TAMIL
+1.write a difference b/w HTTP1.1 & HTTP2
+-Hyper Text Transfer Protocol is standard for communication on world wide 
+web 
+ HTTP 1.1 HTTP 2 
+* Developed by Timothy berners lee         * Developed by Google
+ 
+* It must take multiple TCP connections               * It simply establishes to 
+lessen the effect of HOL blocking                        between two machines 
+* Syntax and semantics are seperated                 * Addition of server push function
+
+ 2.Write a blog about objects and its internal representation in javascropt 
+* Objects in javascript is the most important data-type and forms the building 
+blocks for modern js
+* Object in javascript is quite different from javascript primitive datatypes
+* While primitive datatype can store single datatype and Object can save 
+many types of primitive datatype as well as primitive data types
+ * objects always come with key-value pair
+ 
